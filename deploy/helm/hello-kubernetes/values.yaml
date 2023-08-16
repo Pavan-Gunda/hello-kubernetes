@@ -8,7 +8,7 @@ service:
   port: 80
 
 deployment:
-  replicaCount: 2
+  replicaCount: 3
   container:
     image:
       repository: "harbor.pavgun-dev.a1ck.io/demo/hello-kubernetes"
